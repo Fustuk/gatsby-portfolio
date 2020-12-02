@@ -8,50 +8,71 @@ export const headData = {
 };
 
 // HERO DATA
+
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Kaloyan Botev',
+  subtitle: 'Junior React Front-end Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'I started digging into webdevelopment an year ago, and felt inlove with it right away.Since then i`ve came across alot of new and usefull tools to help me get my projects done.',
+  paragraphTwo: 'I have no profesional experience but i would love to start asap.',
+  paragraphThree: 'I hope you enjoy what you see and you can contact me for more info',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'stocks.jpeg',
+    title: 'Stock Website Clone',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Fustuk/Stock-Website-Clone', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'bitcoin.jpg',
+    title: 'Crypto Live Price',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Fustuk/crypto', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'weather.png',
+    title: 'Weather App',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Fustuk/weather-api', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'movie.jpg',
+    title: 'Movie Database',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/Fustuk/api-testapp', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'webapp.png',
+    title: 'Responsive Website',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/Fustuk/react-web-desing', // if no repo, the button will not show up
   },
 ];
 
@@ -63,32 +84,9 @@ export const contactData = {
 };
 
 // FOOTER DATA
-export const footerData = {
-  networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
-    },
-  ],
-};
+export const footerData = {};
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
